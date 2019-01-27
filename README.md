@@ -1,47 +1,4 @@
-<img src="https://i.imgur.com/sJzfZsL.jpg" width="150" align="right">
-
-# InstaPy
-[![MIT license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/timgrossmann/InstaPy/blob/master/LICENSE)
-[![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
-[![built with Python3](https://img.shields.io/badge/built%20with-Python3-red.svg)](https://www.python.org/)
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/timgrossmann/InstaPy)
-[![Backers on Open Collective](https://opencollective.com/instapy/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/instapy/sponsors/badge.svg)](#sponsors) 
-
-### Automation Script for “farming” Likes, Comments and Followers on Instagram
-Implemented in Python using the Selenium module.
-
-**Think this tool is worth supporting?**
-Head over to https://github.com/timgrossmann/InstaPy/wiki/How-to-Contribute to find out how you can help.
-**Become a part of InstaPy!**
-
-**Have an issue?**
-Head over to https://github.com/timgrossmann/InstaPy/wiki/Reporting-An-Issue to find out how to report this to us and get help.
-
-**Disclaimer**: Please Note that this is a research project. I am by no means responsible for any usage of this tool. Use on your own behalf. I'm also not responsible if your accounts get banned due to extensive use of this tool.
-
-#### Newsletter: [SignUp for the Newsletter here!](http://eepurl.com/cZbV_v)
-
-### Social
-
-#### [InstaPy Twitter](https://twitter.com/InstaPy) | [My Twitter](https://twitter.com/timigrossmann) | [How it works (Medium)](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) |   
-[Talk about automating your Instagram](https://youtu.be/4TmKFZy-ioQ) | [Talk about doing Open-Source work](https://www.youtube.com/watch?v=A_UtST302Og&t=0s&list=PLa4P1NPX9hthXV-wko0xyxFpbhYZFkW7o) | [Listen to the "Talk Python to me"-Episode](https://talkpython.fm/episodes/show/142/automating-the-web-with-selenium-and-instapy)
-
-### Do you need help ?
-
-<a href="https://discord.gg/FDETsht"><img alt="Discord channel" src="https://camo.githubusercontent.com/e4a739df27356a78e9cae2e2dda642d118567e7c/68747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f636c616e732f32373039303534312f386464356339303766326130656563623733646336613437373666633961323538373865626364642e706e67" width=250/></a>
-
-### Do you want to support us ?
-
-<a href="https://opencollective.com/instapy/donate" target="_blank">
-  <img src="https://opencollective.com/instapy/contribute/button@2x.png?color=blue" width=300 />
-</a>
-
-<br />
-
-<a href="https://www.paypal.me/supportInstaPy">
-	<img alt="paypalme" src="http://codeinpython.com/tutorials/wp-content/uploads/2017/09/PayPal-ME-300x300.jpg.png" width=100/>
-</a>
+All credits go to InstaPy
 
 Table of Contents
 =================
