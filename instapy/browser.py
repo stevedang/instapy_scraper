@@ -81,7 +81,6 @@ def set_selenium_local_session(proxy_address,
 
             # replaces browser User Agent from "HeadlessChrome".
             ua = UserAgent()
-            a = ua.random
             user_agent = ua.random
             #user_agent = "Chrome"
             #chrome_options.add_argument('user-agent={user_agent}'
