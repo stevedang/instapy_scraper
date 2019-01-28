@@ -18,4 +18,4 @@ session = InstaPy(username=insta_username,
 
 with smart_run(session):
     """ Activity flow """
-    urlaubsguru_followers=session.grab_followers(username = "urlaubsguru", amount = 20, live_match="True", store_locally=True)
+    urlaubsguru_followers=session.grab_followers(username = "urlaubsguru", amount = 20, live_match="False", store_locally=True)
