@@ -6,6 +6,7 @@ from selenium.webdriver.firefox.options import Options as Firefox_Options
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 from .util import interruption_handler
+from fake_useragent import UserAgent
 
 # general libs
 import re
@@ -79,9 +80,13 @@ def set_selenium_local_session(proxy_address,
                     '--blink-settings=imagesEnabled=false')
 
             # replaces browser User Agent from "HeadlessChrome".
-            user_agent = "Chrome"
-            chrome_options.add_argument('user-agent={user_agent}'
-                                        .format(user_agent=user_agent))
+            ua = UserAgent()
+            a = ua.random
+            user_agent = ua.random
+            #user_agent = "Chrome"
+            #chrome_options.add_argument('user-agent={user_agent}'
+            #                            .format(user_agent=user_agent))
+            chrome_options.add_argument(f'user-agent={user_agent}')
 
         capabilities = DesiredCapabilities.CHROME
 
