@@ -158,7 +158,7 @@ def get_followers(browser,
                 data['user']['edge_followed_by']['page_info'])
             edges = data['user']['edge_followed_by']['edges']
             for user in edges:
-                all_followers.append(user['node']['username'])
+                #all_followers.append(user['node']['username'])
                 append_to_file(user['node']['username'])
 
             grabbed = len(set(all_followers))
