@@ -114,3 +114,7 @@ Pipfile
 
 # Instances
 z_*
+
+#nohup
+
+nohup.out

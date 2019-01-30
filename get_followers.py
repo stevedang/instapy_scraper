@@ -18,4 +18,8 @@ session = InstaPy(username=insta_username,
 
 with smart_run(session):
     """ Activity flow """
-    urlaubsguru_followers=session.grab_followers(username = "urlaubsguru", amount = "full", live_match="False", store_locally=True)
+    #account = "urlaubsguru"
+    list1 = ('urlaubspiraten', 'firstclassandmore', 'urlaubstracker')
+    for account in list1:
+        all_followers = session.grab_followers(
+            username=account, amount="full", live_match="False", store_locally=True)
