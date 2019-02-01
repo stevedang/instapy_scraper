@@ -16,8 +16,8 @@ from .settings import Settings
 from selenium.common.exceptions import NoSuchElementException
 
 
-def append_to_file(str1):
-    with open('./logs/followers.lst','a') as output:
+def append_to_file(username, str1):
+    with open('./logs/'+username+'_followers.lst','a') as output:
         output.write(str1 + "\n")
 
 def get_followers(browser,
@@ -159,7 +159,7 @@ def get_followers(browser,
             edges = data['user']['edge_followed_by']['edges']
             for user in edges:
                 #all_followers.append(user['node']['username'])
-                append_to_file(user['node']['username'])
+                append_to_file(username, user['node']['username'])
 
             grabbed = len(set(all_followers))
 

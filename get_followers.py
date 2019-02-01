@@ -19,8 +19,9 @@ session = InstaPy(username=insta_username,
 with smart_run(session):
     """ Activity flow """
     #account = "urlaubsguru"
-    list1 = ('abindenurlaub', 'reiseuhu', 'travador','globaltraveler.tv' )
-    #list1 = ('airberlin', 'condorairlines', 'tuideutschland')
+    list1 = ['abindenurlaub', 'reiseuhu', 'travador','globaltraveler.tv']
+    #list1 = ['airberlin', 'condorairlines', 'tuideutschland']
+    list1 = ['stevednd']
     for account in list1:
         all_followers = session.grab_followers(
             username=account, amount="full", live_match="False", store_locally= False)
